@@ -1,0 +1,227 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*Header page*/
+
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul h1{
+    margin: 0;
+    color: #fff;
+    font-size: 20px;
+
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/*Main page*/
+
+.hero{
+    margin: 0;
+    background-image:  linear-gradient(to bottom,#ffb62e, #ff9900);
+    padding: 100;
+    text-align: center;
+    color: #fff;
+}
+.hero h1{
+    margin: 0;
+    padding-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 35px;
+}
+
+.hero p{
+    margin-top: 30px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    
+}
+
+.hero button{
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 25px;
+    border-radius: 40px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+}
+
+.products{
+    padding: 20px;
+}
+
+.product-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.product{
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.product button{
+    background-image:  linear-gradient(to bottom,#ffb62e, #ff9900);
+    padding: 20px;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+
+}
+
+.product button:hover{
+    opacity: 0.8;
+}
+
+.product img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.product h3{
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.product p{
+    font-size: 14px;
+    color: #666;
+}
+
+/*Alert div for adding product to cart*/
+
+#alert-add-cart{
+    top: 20px;
+    left: 25%;
+    width: 50%;
+    height: 40px;
+    position: fixed;
+    padding: 20px;
+    margin: 10px;
+
+    text-align: left;
+    background-color: #04aa6d;
+    transition: 0.3s;
+    color: white;
+    border-radius: 5px;
+}
+
+#alert-add-cart p{
+    margin-top: 12px;
+    margin-left: 7px;
+    padding: 0;
+}
+
+.closebtn{
+    margin-left: 15px;
+    margin-top: 8px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover{
+    color: #666;
+}
+
+/*Cart section*/
+
+.cart{
+    padding: 20px;
+}
+
+.cart table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart th,.cart td{
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.cart td:last-child{
+    text-align: right;
+}
+
+#total{
+    font-weight: bold;
+}
+
+#checkout{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/*Alert div for pay button*/
+
+#alert-pay-button{
+    top: 20px;
+    left: 25%;
+    width: 50%;
+    height: 40px;
+    position: fixed;
+    padding: 20px;
+    margin: 10px;
+
+    text-align: left;
+    background-color: #1e85d9;
+    transition: 0.3s;
+    color: white;
+    border-radius: 5px;
+}
+
+#alert-pay-button p{
+    margin-top: 12px;
+    margin-left: 7px;
+    padding: 0;
+}
+
+
+/*Footer of the page*/
+
+footer{
+    background-color: #333;
+    color: #ddd;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+

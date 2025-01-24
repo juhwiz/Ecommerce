@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="witdh=device-witdh, initial-scale=1.0">
+        <title>Ecommerce</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <h1>Ecommerce</h1>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="indexcontato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="hero">
+                <h1>Seja bem-vindo ao nosso ecommerce com Javascript</h1>
+                <p>Encontre aqui o seu produto!</p>
+                <button>Compre Agora</button>
+            </section>
+
+            <section class="products">
+                <h2>Produtos em destaque</h2>
+                <div class="product-grid">
+                    <!-- Aqui serão inseridos os produtos pelo JS-->
+                </div>
+                <div id="alert-add-cart" style="display: none">
+                    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+                    <p>Produto adicionado ao carrinho!</p>
+                </div>
+            </section>
+
+            <section class="cart">
+                <h2>Carrinho de compras</h2>
+                <table>
+                    <thread>
+                        <tr>
+                            <th>Produto</th>
+                            <th>Quantidade</th>
+                            <th>Preço</th>
+                            <th>Subtotal</th>
+                        </tr>
+                    </thread>
+                    <tbody>
+                        <!--Aqui serão os itens do carrinho pelo JS-->
+                    </tbody>
+
+                </table>
+                <p>Total: <span id="total">R$0.00</span></p>
+                <button id="checkout">Pagar</button>
+
+                <div id="alert-pay-button" style="display: none">
+                    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+                    <p>Pedido pago com sucesso!</p>
+                </div>
+
+            </section>
+
+        </main>
+
+    </body>
+    <footer>
+        <p>&copy; 2024 EBAC Ecommerce v1</p>
+    </footer>
+    <script src="script.js"></script>
+
+</html>
