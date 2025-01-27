@@ -1,0 +1,134 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*Header page*/
+
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul h1{
+    margin: 0;
+    color: #fff;
+    font-size: 20px;
+
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/*Image section*/
+
+.photo-section{
+    margin: 0;
+    background-image:  linear-gradient(to bottom,#ffb62e, #ff9900);
+    padding: 100;
+    text-align: center;
+    color: #fff;
+}
+
+.photo-section h1{
+    margin: 0;
+    padding-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 35px;
+}
+
+.photo-section p{
+    margin-top: 30px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 75px;
+}
+
+/*About section*/
+
+.about-section{
+    padding: 20px 200px 25px 200px;
+}
+
+.about-section p{
+    font-size: 20px;
+}
+
+/*Mission section*/
+
+.mission-section{
+    padding: 25px 200px 70px 200px;
+    display: inline-flex;
+    gap: 30px;
+
+}
+
+.mission-section .mission{
+    max-width: 45%;
+    border-radius: 5px;
+    padding: 25px;
+    background-image: linear-gradient(to bottom,#ffb62e, #ff9900);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+    color: #fff;
+}
+
+.mission-section .vision{
+    max-width: 45%;
+    border-radius: 5px;
+    padding: 25px;
+    background-image: linear-gradient(to bottom,#ffb62e, #ff9900);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+    color: #fff;
+}
+
+.mission-section p{
+    font-size: 20px;
+}
+
+/*See more section*/
+
+.course-section{
+    padding: 0px 200px 70px 200px;
+}
+
+.course-section p{
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.course-section a{
+    background-image:  linear-gradient(to bottom,#ffb62e, #ff9900);
+    padding: 20px;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+    text-decoration: none;
+}
+
+
+/*Footer of the page*/
+
+footer{
+    background-color: #333;
+    color: #ddd;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}

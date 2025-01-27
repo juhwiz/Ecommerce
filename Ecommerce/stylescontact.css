@@ -43,28 +43,31 @@ main{
 }
 
 .contact-section{
-    background-color: #f7f7f7;
+    background-image:  linear-gradient(to bottom,#ffb62e, #ff9900);
     padding: 2em;
-    border: 1px solid #ddd;
     box-shadow: 0 0 10px rgb(0, 0, 0.1);
+    border-radius: 5px;
 }
 
 .contact-section h1{
     margin-top: 0;
+    color: #fff;
 }
 
 .contact-section p{
     margin-bottom: 20px;
+    color: #fff;
 }
 
 #contact-form{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
 }
 
 #contact-form label{
     margin-bottom: 10px;
+    color: #fff;
 }
 
 #contact-form input, #contact-form textarea{
@@ -77,8 +80,8 @@ main{
     background-color: #333;
     color: #fff;
     padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
+    border: none; 
+    border-radius: 40px;
     cursor: pointer;
 }
 
@@ -92,10 +95,12 @@ main{
 
 .contact-info h2{
     margin-top: 0;
+    color: #fff;
 }
 
 .contact-info p{
     margin-bottom: 10px;
+    color: #fff;
 }
 
 
